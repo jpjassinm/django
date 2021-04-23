@@ -21,4 +21,6 @@ def hi (request):
     return HttpResponse(str(numbers), content_type='application/json') #?numbers=10,520,25,2
 
 def mensaje (request):
-    print('Cuidado con lo que haces', content_type='application/json')
+    alerta = "Cuidado con lo que haces"
+    return HttpResponse(json.dump(alerta), content_type='application/json')
+    
