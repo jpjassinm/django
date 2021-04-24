@@ -12,7 +12,7 @@ urlpatterns = [
     path('mensaje_dia/',local_views.mensaje_dia),
     path('hi/',local_views.hi),
     path('mensaje/',local_views.mensaje),
-    path('posts/', posts_views.list_post)
+    path('posts/', posts_views.list_posts)
 
 
 
