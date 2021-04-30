@@ -1,7 +1,6 @@
 from django.db import models
 
 # Create your models here.
-
 class usuario(models.model):
     
     id=models.IntegerField(primary_key=True, null=False, unique=True)
