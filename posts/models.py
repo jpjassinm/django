@@ -1,9 +1,9 @@
 from django.db import models
 
 # Create your models here.
-class usuario(models.model):
+class persona(models.model):
     
-    id=models.IntegerField(primary_key=True, null=False, unique=True)
+    
     email = models.EmailField(unique=True)
     password = models.CharField(max_leng=100)
     fist_names=models.CharField(max_leng=100)
